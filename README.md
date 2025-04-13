@@ -1,33 +1,36 @@
-# Diamond Finder
+# 💎 Diamond Finder
 
-Diamond Finder é um jogo desenvolvido em **C++** utilizando a biblioteca **Raylib**. O objetivo do jogo é encontrar diamantes escondidos enquanto explora o ambiente do jogo. O projeto inclui um executável pré-compilado para Windows, para que você possa jogar imediatamente!
-
----
-
-## Funcionalidades
-- Desenvolvido em **C++** para desempenho e flexibilidade.
-- Utiliza **Raylib**, uma biblioteca simples e poderosa para desenvolvimento de jogos.
-- Executável pré-compilado para Windows incluído para fácil acesso.
-- Suporte multiplataforma com um processo de compilação simples.
+**Diamond Finder** é um jogo desenvolvido em **C++** utilizando a biblioteca **Raylib**. O objetivo é explorar o ambiente do jogo em busca de diamantes escondidos. Inclui um executável pré-compilado para Windows, permitindo que você jogue instantaneamente!
 
 ---
 
-## Pré-requisitos
-Para compilar e executar o jogo, certifique-se de ter os seguintes itens instalados:
-- **Raylib**: Necessário para o desenvolvimento e renderização do jogo.
-- **Make**: Para compilar o projeto.
+## ✨ Funcionalidades
+
+- Desenvolvido em **C++** para alto desempenho.
+- Utiliza **Raylib**, uma biblioteca leve e poderosa para jogos 2D/3D.
+- Executável para **Windows** incluso.
+- Suporte multiplataforma com compilação simplificada via **Makefile**.
 
 ---
 
-## Como Jogar
-1. Baixe o repositório e extraia os arquivos.
-2. Execute o executável pré-compilado (usuários de Windows).
-3. Explore o ambiente e tente encontrar todos os diamantes!
+## 📦 Pré-requisitos
+
+Para compilar o jogo a partir do código fonte, é necessário:
+
+- [**Raylib**](https://www.raylib.com/) instalado no sistema.
+- **Make** (já incluído na maioria dos ambientes Linux/macOS).
 
 ---
 
-## Como Compilar
-Siga os passos abaixo para compilar o jogo a partir do código fonte:
+## 🎮 Como Jogar
+
+1. Baixe ou clone este repositório.
+2. No **Windows**, execute o arquivo `game.exe`.
+3. Use o teclado e explore o cenário para encontrar todos os diamantes escondidos!
+
+---
+
+## 🛠️ Como Compilar
 
 1. Clone o repositório:
    ```bash
@@ -35,27 +38,28 @@ Siga os passos abaixo para compilar o jogo a partir do código fonte:
    cd DiamondFinder
    ```
 
-2. Compile o projeto usando `make`:
+2. Compile o projeto:
    ```bash
    make
    ```
 
-3. Execute o executável compilado:
+3. Execute o jogo:
    ```bash
    ./game
    ```
 
 ---
 
-## Estrutura de Arquivos
-- **src/**: Contém o código fonte do jogo.
-- **assets/**: Inclui os recursos do jogo, como imagens, sons, etc.
-- **Makefile**: Usado para compilar o projeto.
-- **game.exe**: Executável pré-compilado para Windows.
+## 📁 Estrutura do Projeto
+
+```
+DiamondFinder/
+├── src/         # Código-fonte principal
+├── assets/      # Recursos do jogo (imagens, sons etc.)
+├── Makefile     # Script de compilação
+└── game.exe     # Executável Windows
+```
 
 ---
 
-
----
-
-Divirta-se jogando e boa sorte encontrando os diamantes!
+🎉 **Divirta-se jogando e boa sorte caçando diamantes!**
